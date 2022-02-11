@@ -5,51 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assert/css/style.css">
 </head>
 <body>
-<nav>
-    <ul>
-        <li>
-            <a href="index.html"> Home</a>
-        </li>
-        <li>
-            <a href="contato.html"> Contato</a>
-        </li>
-    </ul>
-</nav>
+    <nav>
+        <ul >
+            <li>
+                <a href="index.html"> Home</a>
+            </li>
+            <li>
+                <a href="contato.html"> Contato</a>
+            </li>
+        </ul>
+    </nav>
 
 <main>
-    <section id="Contato">
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <form>
-        <label for="nome">Nome: </label> <br />
-        <input type="test" id="nome" />
-        <br />
-        <br />
-        <label for="email">E-mail: </label> <br />
-        <input type="email" id="email" />
-        <br />
-        <br />
-        <label for="assunto">Assunto: </label> <br />
-        <textarea name="assunto" id="assunto" cols="60" rows="5" ></textarea>
-        <br />
-        <br />
-        <button>Enviar</button>
-    </form>
-</section>
-    
-<section id="Endereço">
-    <h2>Endereço:</h2>
-    <p>Av Liberdade 250 </p>
-    <p>São Paulo - SP</p>
+    <div class="container">
+ 
+        <div>
+            <form>
+                <label for="nome">Nome: </label> <br />
+                <input type="test" id="nome" />
+                <br />
+                <br />
+                <label for="email">E-mail: </label> <br />
+                <input type="email" id="email" />
+                <br />
+                <br />
+                <label for="assunto">Assunto: </label> <br />
+                <textarea name="assunto" id="assunto" cols="60" rows="5" ></textarea>
+                <br />
+                <br />
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.361187952081!2d-46.638468085543245!3d-23.55546796725862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59a927d7106b%3A0x103c2c52782d2bb9!2sAv.%20da%20Liberdade%2C%20250%20-%20Liberdade%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001502-001!5e0!3m2!1spt-BR!2sbr!4v1644434919903!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</section>
-</main>
+        <div class="ml-50">
+
+            <h2>Endereço:</h2>
+            <p>Av Liberdade 250 </p>
+            <p>São Paulo - SP</p>
+        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.361187952081!2d-46.638468085543245!3d-23.55546796725862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59a927d7106b%3A0x103c2c52782d2bb9!2sAv.%20da%20Liberdade%2C%20250%20-%20Liberdade%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001502-001!5e0!3m2!1spt-BR!2sbr!4v1644434919903!5m2!1spt-BR!2sbr"
+             width="600" 
+             height="450" 
+             style="border:0;" 
+             allowfullscreen="" 
+             loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+   
+
+<div class="imgs"> 
+    <a href="https://www.facebook.com/glaucya.stobbe/" target="_blank">
+    <img class="tm-social" src="assert/img/facebook.png" alt="Logo Facebook">
+</a>
+
+<a href="https://www.instagram.com/stobbeglau_/" target="_blank">
+    <img class="tm-social" src="assert/img/instagram.png" alt="Logo Intragram">
+</a>
+
+<a href="https://www.linkedin.com/in/glaucyanascimento/" target="_blank">
+    <img class="tm-social" src="assert/img/linkedin.png" alt="Logo Linkedin">
+</a>
+</div>
 
 <footer>
-    <p>Feito por Glaucya Nascimento ♥</p>
+    <p>Feito com carinho - Glaucya Nascimento ♥</p>
 </footer>
     
 </body>

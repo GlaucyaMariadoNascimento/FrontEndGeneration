@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assert/css/style.css">
 </head>
 <body>
 <nav>
-    <ul>
+    <ul >
         <li>
             <a href="index.html"> Home</a>
         </li>
@@ -20,9 +21,10 @@
 
 <main>
     <section id="sobreMim">
-  <h1>Sobre Glaucya</h1>
-
-  <p>
+  <h1 class="center">Sobre Glaucya</h1>
+ <div class="geral">
+     <div class="texto">
+  <p >
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium qui consectetur magnam quidem officia distinctio laudantium itaque expedita assumenda, iure ea voluptate quisquam mollitia. Nostrum distinctio excepturi nulla quod iure.
   </p>
   <P>
@@ -34,19 +36,49 @@
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad impedit recusandae veritatis nostrum architecto, porro a! Asperiores cum doloribus enim fuga, qui dolorum autem eaque rem veniam laudantium accusamus laboriosam!
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae incidunt praesentium, placeat et accusamus at vero quos asperiores facere nobis libero. Tenetur, fugit sit numquam quo quisquam illo eveniet ut! 
 </P>
+</div>
 
-<img src="assert/img/foto.perfil_ccexpress.jpeg" 
+<div>
+<img class="fotoPerfil" src="assert/img/foto.perfil_ccexpress.jpeg" 
 alt="Foto da desenvolvedora desse projeto">
+</div>
 </section>
 
 
 <section id=minhasMusicas>
-<h2>Minhas Musicas Prediletas</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j3kyaUU7D5I" 
-title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
- encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2 class="center">Minhas Musicas Prediletas</h2>
+
+<div>
+<iframe  class="video" 
+src="https://www.youtube.com/embed/j3kyaUU7D5I" 
+title="YouTube video player" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write;
+ encrypted-media; gyroscope; picture-in-picture" 
+ allowfullscreen>
+</iframe>
+</div>
 </section>
 </main>
 
+
+<div class="imgs"> 
+    <a href="https://www.facebook.com/glaucya.stobbe/" target="_blank">
+    <img class="tm-social" src="assert/img/facebook.png" alt="Logo Facebook">
+</a>
+
+<a href="https://www.instagram.com/stobbeglau_/" target="_blank">
+    <img class="tm-social" src="assert/img/instagram.png" alt="Logo Intragram">
+</a>
+
+<a href="https://www.linkedin.com/in/glaucyanascimento/" target="_blank">
+    <img class="tm-social" src="assert/img/linkedin.png" alt="Logo Linkedin">
+</a>
+</div>
+
+
+<footer>
+    <p>Feito com carinho - Glaucya Nascimento ♥</p>
+</footer>
 </body>
 </html>
